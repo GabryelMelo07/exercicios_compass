@@ -12,7 +12,7 @@ public class Ex2 {
         System.out.print("Informe o valor do raio do círculo: ");
         raio = in.nextDouble();
 
-        area = Math.PI * Math.pow(raio, 2); // Utilizando o Math.PI, a precisão das casas decimais é maior.
+        area = Math.PI * Math.pow(raio, 2); // Dentro da classe Math do java, existe uma constante de PI. Utilizando o Math.PI, a precisão das casas decimais é maior.
 
         System.out.printf("A=%.4f", area);
 
